@@ -48,4 +48,5 @@ println dayMap.getClass().getName()
 // Print the size of the map
 println dayMap.size()
 // Is there a method that would easily print out all of the days (values)? 
+println dayMap.values()
 dayMap.each{v -> println "${v}"}
