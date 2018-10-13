@@ -25,13 +25,8 @@ class Person1 {
 println Person1.welcomeMsg
 println Person1.WELCOME_MSG
 
-def person1 = new Person()
-println person1.firstName
-
-println "------------ Some Text ------------"
-
-
-println "------------ Some Text ------------"
+def person1 = new Person1()
+println person1.testMethod()
 
 
 /*
