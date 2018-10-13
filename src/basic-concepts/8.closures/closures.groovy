@@ -39,3 +39,47 @@ Random rand = new Random()
 3.times {
     println rand.nextInt()
 }
+
+/*
+Output:
+closures$_run_closure1@1901d1db
+closures$_run_closure1
+closures$_run_closure1
+true
+Hi There, Mo
+------------ Printing Nums with it ------------
+1
+2
+3
+4
+6
+7
+9
+--------- Printing Nums passing nums -----------
+1
+2
+3
+4
+6
+7
+9
+------------ TimesTen ------------
+100
+20
+------------ Ten.Times ------------
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+------------ Random nums ------------
+1040830692
+-1509465422
+614844552
+
+*/

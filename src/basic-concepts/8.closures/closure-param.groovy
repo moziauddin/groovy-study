@@ -32,7 +32,7 @@ greet("Mo","Morning")
 greet("Joe")
 println "---------- var arg ------------"
 def joinStrings = { String... args ->
-    args.join('')
+    args.join(' ')
 }
 println joinStrings('abc','fgh','hgf')
 println joinStrings('mo', ' ', 'ziauddin')
@@ -44,3 +44,24 @@ def someMethod(Closure c) {
 }
 def someClosure = { int x, int y -> x + y}
 someMethod(someClosure)
+
+/*
+Output:
+-------- Implicit Param -------
+Mo
+-------- No Params ---------
+no params
+---- Multiple parameters -----
+Hello Mo, Zee
+-------- Default Values -------
+Morning Mo
+Howdy Joe
+---------- var arg ------------
+abc fgh hgf
+mo   ziauddin
+--------- some method ---------
+...
+2
+[int, int]
+
+*/
