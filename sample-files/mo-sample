@@ -1,0 +1,30 @@
+class MoExample{
+    static void main(String[] args){
+        // getting used to groovy
+        println("Hello Mo");
+        println("\nworking with variables");
+        def age = 10;
+        def exnum = "Tree";
+        exnum = 11;
+        println("$age");
+        println("$exnum");
+        
+        // math operations examples... 
+        // println("");
+        println("\nworking with math operators for integers");
+        println("10 + 2 = " + (10+2));
+        println("10 - 2 = " + (10-2));
+        println("10 * 2 = " + (10*2));
+        println("10 / 2 = " + (10.intdiv(3)));
+        println("10 / 2 = " + (10/2));
+        println("10 % 2 = " + (10%2));
+        
+        println("\nworking with math operators for floating point numbers");
+        println("5.5 + 8.8 = " + 5.5.plus(8.8));
+        println("5.5 - 8.8 = " + 5.5.minus(8.8));
+        println("5.5 * 8.8 = " + 8.8.multiply(5.5));
+        println("5.5 / 8.8 = " + (5.5/8.8));
+        println("5.5 / 8.8 = " + (5.5.div(8.8)));
+        
+    }
+}

@@ -32,5 +32,11 @@ println person1.testMethod()
 /*
 Output:
 
+------------ Classes in Java ------------
+------------ Groovy Classes ------------
+Hey There
+Hello
+Morning, Mo
+null
 
 */
